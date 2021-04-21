@@ -1,0 +1,20 @@
+caracteristicas: debibilmente tipado, sensible a mayusculas y minusculas, multiparadigma.
+
+- tipos de datos: string, number, boolean, array, object, undefined, NaN, null.
+nuevo tipo de dato = symbol
+- objetos: Date, 
+cada tipo de dato tiene sus propiedades y metodos, lo podemos encontrar en mozilla developer.
+
+
+¿Cual son las diferencias entre las variables var, let y const?
+Var es de ambito global por eso es una mala practica utilizarla, let es de ambito de bloque y const es para constantes o objetos los arrays.
+Otra diferencia es que al declarar una constante hay que asignarle el valor constante, let puede quedar undefined.
+
+¿Cual es la diferencia entre funcion declarada y funcion expresada?
+La funcion declarada se eleva al scout global del archivo, a esto se llama hacer hoistin, por eso se puede invocar antes o despues de su definicion.
+La funcion expresada es cuando se le asigna una funcion a una variable, y se la puede invocar solo despues de su definicion. Usar funciones expresadas es de buena practica de js.
+
+
+
+
+

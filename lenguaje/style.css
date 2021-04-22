@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 body {
@@ -20,4 +21,11 @@ header {
   width: 70%;
   margin: auto;
   margin-top: 50px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.container > div > div {
+  margin-bottom: 20px;
 }

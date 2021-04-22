@@ -4,9 +4,32 @@
   --dark-color: #222;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header {
+  text-align: center;
+  background-color: yellow;
+  color: black;
+  padding: 20px 0px 10px 0px;
+}
+
+.container {
+  max-width: 1200px;
+  width: 70%;
+  margin: auto;
+  margin-top: 50px;
+}
+
 .cards {
   border: thin solid var(--dark-color);
-  padding: 1rem;
+  margin-top: 50px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 .card {
@@ -33,4 +56,21 @@
 
 .sepia {
   filter: sepia(1);
+}
+
+input {
+  height: 30px;
+  padding: 5px;
+  padding-left: 20px;
+  border-radius: 2rem;
+}
+
+.contenido {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+img {
+  width: 100%;
 }

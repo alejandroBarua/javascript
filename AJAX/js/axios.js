@@ -10,7 +10,7 @@ import Component from "./component.js";
     axios.get("https://api.github.com/users/alejandroBarua")
         .then(res => {
             
-            let json = res.data;
+            let json = res.data; // el json ya viene parcesado en un objeto que me da axios
 
             Component($axios, json);
             
@@ -20,7 +20,9 @@ import Component from "./component.js";
             let message = err.response.statusText || "ocurrio un error";
             $axios.innerHTML = `Error ${err.response.status}: ${message}`;
         })
-        .finally(() => {});
+        .finally(() => {
+            // esto se ejecutara independiente del resultado de la respuesta
+        });
 })();
 
  */
@@ -45,9 +47,7 @@ import Component from "./component.js";
             let message = err.response.statusText || "ocurrio un error";
             $axiosAsync.innerHTML = `Error ${err.response.status}: ${message}`;            
 
-        } finally{
-
-        }
+        } finally{}
     }
         
     getData();

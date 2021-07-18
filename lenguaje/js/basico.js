@@ -11,7 +11,7 @@ const persona = { // objeto persona
         },
 
         // funcion dentro de un objeto = metodo
-        decirMiNombre: function() {  // this hace referencia al objeto perro
+        decirMiNombre: function() {  // this hace referencia al objeto persona
             console.log(`hola me llamo ${this.nombre} ${this.apellido}`); // interpolacion
         }
 
@@ -192,8 +192,8 @@ console.log(false || "valor de la derecha"); // da el valor de la derecha
 
 // cortocircuito AND - si el valor de la izquierda es false, es el valor que se cargara por defecto.
 
-console.log(19 || "valor de la derecha"); // da el valor de la derecha
-console.log(false || "valor de la derecha"); // da false
+console.log(19 && "valor de la derecha"); // da el valor de la derecha
+console.log(false && "valor de la derecha"); // da false
 
 
 

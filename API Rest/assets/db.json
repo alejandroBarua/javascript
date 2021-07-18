@@ -13,16 +13,10 @@
       "img_url": "./assets/images/eloquent  javascript.jpg"
     },
     {
+      "id": 6,
       "name": "Atomic Habits",
-      "value": 11.38,
-      "img_url": "./assets/images/atomic habits.jpg",
-      "id": 6
-    },
-    {
-      "name": "UX UI Desing",
-      "value": 20,
-      "img_url": "./assets/images/ux ui desing.jpg",
-      "id": 7
+      "value": 12,
+      "img_url": "./assets/images/atomic habits.jpg"
     },
     {
       "name": "Javascript: The Good Parts",
@@ -35,15 +29,21 @@
       "value": 38.45,
       "img_url": "./assets/images/machine learning.jpg",
       "id": 9
-    }
-  ],
-  "cart": [
+    },
+    {
+      "name": "UX UI Desing",
+      "value": 20,
+      "img_url": "./assets/images/ux ui desing.jpg",
+      "id": 10
+    },
     {
       "name": "The Pragmatic Programmer",
       "value": 28.79,
       "img_url": "./assets/images/the pragmatic programmer.jpg",
-      "id": 5
-    },
+      "id": 11
+    }
+  ],
+  "cart": [
     {
       "name": "Cracking The Coding Interview",
       "value": 24,

@@ -1,7 +1,10 @@
 # Apunte de Javascript
 
-Este proyecto tiene herramientas para trabajar con javascript.
-Es un resumen de las bases del lenguaje, objetos, clases, eventos, Api Rest, AJAX, etc.
+### Este proyecto tiene herramientas para trabajar con javascript.
+
+- Bases del lenguajes
+- Programación orientado a objetos (POO)
+- Asincronia
 
 ## En las bases del lenguajes hay temas como:
 
